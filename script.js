@@ -1,4 +1,7 @@
-const apiKey = process.env.HARVARD_API_KEY;
+import { HARVARD_API_KEY } from "./config.js";
+
+const url = `https://api.harvardartmuseums.org/object?apikey=${HARVARD_API_KEY}&size=10&hasimage=1`;
+
 const imagesToShow = 20;
 const container = document.getElementById('images');
 
@@ -21,8 +24,6 @@ for (let i = 0; i < imagesToShow; i++) {
 
 const images = document.querySelectorAll('.image');
 const contentBoxes = document.querySelectorAll('.box');
-
-const url = `https://api.harvardartmuseums.org/object?apikey=${apiKey}&size=${imagesToShow}&hasimage=1`;
 
 fetch(url)
   .then(response => response.json())
