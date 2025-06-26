@@ -21,4 +21,4 @@ A simple, elegant web project demonstrating dynamic image loading and scroll-tri
 - Clean, modular code easy to customize and extend
 
 ### Links
-- Live Site URL: [@Netlify]()
+- Live Site URL: [@Netlify](https://scroll-animation-images.netlify.app/)
