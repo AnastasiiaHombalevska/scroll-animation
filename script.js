@@ -1,4 +1,4 @@
-
+const apiKey = process.env.HARVARD_API_KEY;
 const imagesToShow = 20;
 const container = document.getElementById('images');
 
