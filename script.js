@@ -1,4 +1,4 @@
-const apiKey = '8441a106-0536-4aed-9b57-e7ad241c0010';
+
 const imagesToShow = 20;
 const container = document.getElementById('images');
 
